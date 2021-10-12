@@ -6,10 +6,19 @@ body{
 }
 * {box-sizing: border-box}
 
-/* .container {
-  width: 100%;
-  background-color: #ddd;
-} */
+/* media query */
+@media screen and (max-width: 600px) {
+  .query {
+    background-color: olive;
+    color: white;
+    
+    }
+    
+      p{
+  display: none;
+}
+   	
+  }
 
 .skills {
   text-align: right;
@@ -88,7 +97,7 @@ html {
 }
 
 .sidebar {
-  height: 80%;
+  height: 100%;
   width: 220px;
   position: fixed;
   z-index: 1;
@@ -112,7 +121,8 @@ html {
 }
 
 .main {
-  margin-left: 160px; /* Same as the width of the sidenav */
+  /* Same as the width of the sidenav */
+  margin-left: 160px; 
   padding: 0px 10px;
 }
 
@@ -192,13 +202,14 @@ font-size: 35px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-   
-    
-  }
-  .flip{
     gap:40px;
+   
   }
+  /* .flip{
+   
+  } */
   .flip-card {
+    text-align: center;
     background-color: transparent;
     flex-direction: row , row-reverse ,column , column-reverse;
     width: 350px;
@@ -231,13 +242,25 @@ font-size: 35px;
   .flip-card-front {
     background-color: #bbb;
     color: black;
+    border-radius: 20%;
   }
   
   .flip-card-back {
     background-color: hotpink;
     color: white;
+    border-radius: 20%;
     transform: rotateY(180deg);
+    padding: 20px;
   }
   img{
       border-radius: 20%;
+  }
+
+  .two{
+    margin-top: 80px
+  
+  }
+
+  .flip{
+    margin-left: 200px;
   }
