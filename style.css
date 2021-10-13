@@ -1,5 +1,5 @@
 body{
-    background-image: url('images/back.jpg');
+    background-image: url('images/minnie-mouse.jpg');
     background-repeat: no-repeat;
     background-size: cover;
    
@@ -19,33 +19,32 @@ body{
 }
    	
   }
-
+/* about page */
 .skills {
   text-align: right;
   padding-top: 10px;
   padding-bottom: 10px;
   color: white;
 }
-
+.paragraph{
+margin-left: 550px;
+font-size: 30px;
+}
 .html {width: 79.9%; background-color: #04AA6D;}
 .css {width: 89%; background-color: #2196F3;}
 .js {width: 30%; background-color: #f44336;}
 
-/* body {font-family: "Lato", sans-serif;} */
-html {
-  box-sizing: border-box;
-}
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-.column {
-  float: left;
-  width: 45%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
+/* .column {
+  
+  width: 55%;
+
+  padding-left: 400px;
+} */
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -53,15 +52,9 @@ html {
 }
 
 .about-section {
-  /* padding: 50px; */
   text-align: center;
   color: white;
 }
-
-.container {
-  padding: 0 16px;
-}
-
 
 .container::after, .row::after {
   content: "";
@@ -131,32 +124,29 @@ html {
   .sidebar a {font-size: 18px;}
 }
 .header {
-  color:white;
+  font-size: 30px;
+  color:black;
   text-align: center;
 } 
 p {
-  color: white;
-  font-size: 30px;
+  margin-left: 25%;
+  width: 60%;
+  color:black;
+  
 }
-img {
-float: left;
 
-
-}
 .home {
   float: left;
-  padding: 250px; 
+  padding-left: 550px; 
+  padding-top: 200px;
 }
 .about{
   padding-left: 250px;
 }
 .text{
-  /* padding-left: 200px; */
   text-align: center;
-color: white;
+color:black;
 font-style: italic;
-width: max-content;
-
 font-size: 35px;
     }
    * {
