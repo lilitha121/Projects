@@ -266,12 +266,13 @@ font-size: 30px;
   border: none;
   outline: 0;
   display: inline-block;
-  padding: 8px;
+  padding: 18px;
   color: white;
   background-color: #000;
   text-align: center;
   cursor: pointer;
-  width: 100%;
+  width: 50%;
+
 }
 
 .button:hover {
@@ -344,7 +345,9 @@ p {
   padding-top: 200px;
 }
 .about{
-  padding-left: 250px;
+  
+ text-align: center;
+
   
 }
 .text{
